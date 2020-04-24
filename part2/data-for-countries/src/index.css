@@ -1,0 +1,126 @@
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.page {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back {
+  background-color: rgba(247, 165, 158, 0.2);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.all {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  color: white;
+  background-image: linear-gradient(to bottom right, rgb(24, 50, 90), rgb(156, 195, 212));  
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px 0px;
+  padding: 20px;
+  width: 70%;
+  border-radius: 10px;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.params {
+  color: black;
+  min-width: 200px;
+  background-color: rgb(188, 211, 219);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.params .temp {
+  color: rgb(19, 19, 83);
+  font-size: 5rem;
+  text-align: right;
+  margin: 5px;
+}
+
+.params .wind {
+  margin: 5px;
+  text-align: right;
+}
+
+.params .sky {
+  height: 60px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  font-size: 4rem;
+}
+
+.sky .sign {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 4rem;
+}
+
+.sky p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: gray;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  width: 180px;
+  min-height: 50px;
+  padding: 10px;
+  background-color: rgb(29, 60, 116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:lightblue;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 1px;
+}
+
+button:hover {
+  background-color: teal;
+}
+
+
+.filter {
+  color: black;
+  margin: 20px;
+}
